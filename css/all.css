@@ -1,0 +1,107 @@
+*,*:before,*:after {
+    box-sizing: border-box;
+}
+q::before {
+    content: open-quote;
+}
+q::after {
+    content: close-quote;
+}
+q {
+	quotes: '\275D' '\275E';
+	font-weight: bold;
+}
+em {
+    font-style: italic;
+ }
+.box-1 {
+	width: 100px;
+	height: 100px;
+	background-color: red;
+	margin-bottom: 30px;
+}
+.box-2 {
+	width: 100px;
+	height: 100px;
+	background-color: blue;
+	position: absolute;
+	top: 60px;
+	left: 60px;
+}
+.box-3 {
+	width: 100px;
+	height: 100px;
+	background-color: green;
+	position: static;
+	margin-left: 120px;
+	margin-bottom: 20px;
+}
+h1 {
+	position: absolute;
+	top: 50px;
+	right: 50px;
+}
+h2 {
+	position: relative;
+	left: 20px;
+	bottom: 30px;
+}
+h3 {
+	position: fixed;
+	left: 50px;
+	top: 100px;
+}
+.playing_cards {
+	margin-top: 20px;
+	height: 600px;
+	width: 600px;
+	background-color: #0d5825;
+}
+.blockquote {
+	padding-top: 20px;
+	text-align: center;
+	font-size: 25px;
+	color: white;
+}
+.img-1 {
+	display: inline-block;
+	position: relative;
+	left: 150px;
+	top: 200px;
+	transform: rotate(-25deg);
+	transition: top 0.5s;
+}
+.img-2 {
+	display: inline-block;
+	position: relative;
+	left: 46px;
+	top: 207px;
+	transform: rotate(-10deg);
+	transition: top 0.5s;
+}
+.img-3 {
+	display: inline-block;
+	position: relative;
+	left: -52px;
+	top: 218px;
+	transform: rotate(6deg);
+	transition: top 0.5s;
+}
+.img-1:hover {
+	display: inline-block;
+	position: relative;
+	left: 150px;
+	top: 190px;
+}
+.img-2:hover {
+	display: inline-block;
+	position: relative;
+	left: 46px;
+	top: 195px;
+}
+.img-3:hover {
+	position: relative;
+	left: -52px;
+	top: 205px;
+}
+	
